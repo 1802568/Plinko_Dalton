@@ -46,4 +46,3 @@ function draw() {
    divisions[i].display();
     
   }
-}
