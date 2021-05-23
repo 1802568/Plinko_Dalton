@@ -40,9 +40,6 @@ function draw() {
     plinkos[i].display();
     
   }
-    for (var i = 0; i < divisions.length; i++) {
-     
-   divisions[i].display();
-  }
+
 }
 
