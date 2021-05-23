@@ -38,6 +38,7 @@ function draw() {
   for (var i = 0; i < plinkos.length; i++) {
      
     plinkos[i].display();
+    divisions[i].display();
     
   }
 }
