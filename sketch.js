@@ -12,7 +12,7 @@ var Engine = Matter.Engine,
   var score =0;
 
 function setup() {
-   createCanvas(800,800);
+   createCanvas(800,400);
   engine = Engine.create();
   world = engine.world;
   ground = new Ground(width/2,height,width,20);
@@ -40,6 +40,4 @@ function draw() {
     plinkos[i].display();
     
   }
-
 }
-
